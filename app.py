@@ -395,7 +395,7 @@ def main_app():
                     combined_df = pd.concat(all_matched_subcon_list, ignore_index=True)
 
                     # Select columns to display (optional: reorder/filter as you like)
-                    subcon_cols_to_show = ["LDAP ID", "EmployeeName", "Email", "Bench Skill",
+                    subcon_cols_to_show = ["LDAP ID", "EmployeeName", "Email",
                                       "Emp ID", "Consultant Name", "Project Manager", "Client", 
                                       "Skill", "Matching Skills", "Match %"]
 
